@@ -14,10 +14,30 @@ const WorkExperience = () => {
               <h3>February 2025 - Present </h3>
             </div>
             <div className="job-discription pl-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-              iure cupiditate ipsam accusamus repudiandae non molestias
-              consequuntur tempore quibusdam cumque dolorem, illum explicabo
-              eaque exercitationem harum natus laudantium qui! Numquam!
+              <ul>
+                <li>
+                  <b>Customer Screening & Due Diligence:</b> Conducts
+                  comprehensive Know Your Customer (KYC) and adverse news checks
+                  against global sanctions lists for prospective and existing
+                  clients.
+                </li>
+                <li>
+                  <b>Sanctions Risk Analysis:</b> Performs in-depth research and
+                  investigation of clients and transactions to assess and
+                  mitigate sanctions violation risks.
+                </li>
+                <li>
+                  <b>Documentation & Reporting:</b>Maintains meticulous records
+                  of screening and analysis activities, preparing detailed
+                  reports for internal and external stakeholders.
+                </li>
+                <li>
+                  <b>Training & Process Improvement:</b>Developed and delivered
+                  training, including a new job aid/checklist, to enhance team
+                  effectiveness and reduce onboarding time for reviewers and
+                  trainees.
+                </li>
+              </ul>
             </div>
           </div>
           <div className="bg-gray-100 pb-5 my-5">
