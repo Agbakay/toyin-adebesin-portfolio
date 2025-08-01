@@ -121,7 +121,7 @@ const WorkExperience = () => {
               <h1 className="font-semibold">
                 University of Lagos (UNILAG), Nigeria
               </h1>
-              <h3>Year </h3>
+              <h3>Jun 2019 - Nov 2024</h3>
             </div>
             <div className="job-discription pl-3">
               Bachelor of Science: Accounting
@@ -131,7 +131,7 @@ const WorkExperience = () => {
           <div className="my-5 pb-5 bg-gray-100">
             <div className="job-title flex mb-5 mt-5 justify-between gap-10 bg-gray-400 p-2">
               <h1 className="font-semibold">(YABATECH), Nigeria</h1>
-              <h3>Year </h3>
+              <h3>Jan 2013 - Dec 2015</h3>
             </div>
             <div className="job-discription p-3">
               Ordinary National Diploma: Accountancy
@@ -140,13 +140,13 @@ const WorkExperience = () => {
           <div className="my-5 pb-5 bg-gray-100">
             <h1></h1>
             <div className="job-title flex mb-5 mt-5 justify-between gap-10 bg-gray-400 p-2">
-              <h1 className="font-semibold text-3xl">
+              <h1 className="font-medium  text-2xl">
                 Certificate and Training
               </h1>
               <h3></h3>
             </div>
             <div className="job-discription p-3">
-              <ul>
+              <ul className="">
                 <li>
                   <b>
                     Designate Compliance Personel (DCP) - Compliance Institute,

@@ -16,11 +16,10 @@ const Portfolio = () => {
             <h1>Portfolio one</h1>
             <p>Project Discription</p>
             <a href="#">
-              {" "}
               <i className="fa-solid fa-arrow-right"></i>
             </a>
           </div>
-          <div className=" object-contain pt-10 ">
+          <div className=" object-contain  ">
             <img src={image} alt="" />
           </div>
           <div className=" object-contain pt-10 pb-10">
