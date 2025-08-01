@@ -4,11 +4,13 @@ const WorkExperience = () => {
   return (
     <div className="px-[8%]">
       <div className="md:flex gap-24">
-        <div>
+        <div className="basis-1/2">
           <h1 className="text-3xl md:text-4xl text-left">Work Experience</h1>
           <div className="my-5 bg-gray-100 pb-5">
             <div className="job-title flex mb-5 mt-5 justify-between gap-10 bg-gray-400 p-2">
               <h1 className="font-semibold">
+                {" "}
+                <span className="text-cyan-950 ">Sanction Analyst</span> |
                 Gabriel Grace Consulting Services (PureDiligence)
               </h1>
               <h3>February 2025 - Present </h3>
@@ -40,63 +42,80 @@ const WorkExperience = () => {
               </ul>
             </div>
           </div>
-          <div className="bg-gray-100 pb-5 my-5">
+
+          <div className="my-5 bg-gray-100 pb-5">
             <div className="job-title flex mb-5 mt-5 justify-between gap-10 bg-gray-400 p-2">
               <h1 className="font-semibold">
-                Gabriel Grace Consulting Services (PureDiligence)
+                Executive Assistant & Project Coordinator | Get Coached with
+                Faith & MindKlear Wellness
               </h1>
-              <h3>February 2025 - Present </h3>
+              <h3>Sep 2023 – Jan 2024</h3>
             </div>
             <div className="job-discription pl-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-              iure cupiditate ipsam accusamus repudiandae non molestias
-              consequuntur tempore quibusdam cumque dolorem, illum explicabo
-              eaque exercitationem harum natus laudantium qui! Numquam!
+              <ul>
+                <li>
+                  <b>Executive Support:</b> Managed schedules, travel,
+                  appointments, public speaking engagements, and media
+                  communications; handled sensitive and confidential information
+                  with discretion.
+                </li>
+                <li>
+                  <b>Project Management</b>: Designed and executed the "Unleash
+                  Your Voice Africa" leadership and self-development program for
+                  50+ young professionals, overseeing logistics, budgeting, and
+                  marketing (Instagram, radio, mailing lists, paid ads,
+                  partnerships).
+                </li>
+                <li>
+                  <b>Wellness & Operations:</b> Streamlined processes and
+                  enhanced efficiency; utilized various software including
+                  Microsoft Excel, Google Suites, Canva, Slack, Convert Kit,
+                  MailChimp, Zappier, Paper Bell, and Wix. Collaborated with
+                  organizations to promote wellness, mental health awareness,
+                  and career development.
+                </li>
+              </ul>
             </div>
           </div>
           <div className="my-5 bg-gray-100 pb-5">
             <div className="job-title flex mb-5 mt-5 justify-between gap-10 bg-gray-400 p-2">
               <h1 className="font-semibold">
-                Gabriel Grace Consulting Services (PureDiligence)
+                BSA/AML Analyst | Gabriel Grace Consulting Services
               </h1>
-              <h3>February 2025 - Present </h3>
+              <h3>Mar 2023 – Aug 2023</h3>
             </div>
             <div className="job-discription pl-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-              iure cupiditate ipsam accusamus repudiandae non molestias
-              consequuntur tempore quibusdam cumque dolorem, illum explicabo
-              eaque exercitationem harum natus laudantium qui! Numquam!
-            </div>
-          </div>
-          <div className="my-5 bg-gray-100 pb-5">
-            <div className="job-title flex mb-5 mt-5 justify-between gap-10 bg-gray-400 p-2">
-              <h1 className="font-semibold">
-                Gabriel Grace Consulting Services (PureDiligence)
-              </h1>
-              <h3>February 2025 - Present </h3>
-            </div>
-            <div className="job-discription pl-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-              iure cupiditate ipsam accusamus repudiandae non molestias
-              consequuntur tempore quibusdam cumque dolorem, illum explicabo
-              eaque exercitationem harum natus laudantium qui! Numquam!
+              <ul>
+                <li>
+                  <b>Suspicious Activity Detection & Reporting:</b> Identified
+                  and tracked suspicious financial activities by reviewing daily
+                  transaction reports, leading to the timely investigation and
+                  filing of Suspicious Activity Reports (SARs).
+                </li>
+                <li>
+                  <b>Regulatory Compliance & Documentation:</b> Collected and
+                  provided essential documentation for SARs, Currency
+                  Transaction Reports (CTRs), and AML monitoring to examiners,
+                  auditors, and law enforcement agencies.
+                </li>
+                <li>
+                  <b>Due Diligence & Risk Management:</b> Conducted and
+                  documented comprehensive due diligence reviews for exempt,
+                  high-risk, and new customers to ensure regulatory compliance.
+                </li>
+                <li>
+                  <b>Continuous Learning & Expertise: </b>Maintained an in-depth
+                  understanding of BSA/AML regulations and FinCEN Guidelines
+                  through continuous training, ensuring proficiency in detecting
+                  money laundering and fraud schemes.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
         <div>
           <h1 className="text-3xl md:text-4xl">Education</h1>
-          <div className="my-5 bg-gray-100 pb-5">
-            <div className=" job-title flex mb-5 mt-5 justify-between gap-10 bg-gray-400 p-2">
-              <h1 className="font-semibold">MS in Finance (In View)</h1>
-              <h3>Year </h3>
-            </div>
-            <div className="job-discription pl-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-              iure cupiditate ipsam accusamus repudiandae non molestias
-              consequuntur tempore quibusdam cumque dolorem, illum explicabo
-              eaque exercitationem harum natus laudantium qui! Numquam!
-            </div>
-          </div>
+
           <div className="my-5 pb-5 bg-gray-100">
             <div className="job-title flex mb-5 mt-5 justify-between gap-10 bg-gray-400 p-2">
               <h1 className="font-semibold">
@@ -116,6 +135,34 @@ const WorkExperience = () => {
             </div>
             <div className="job-discription p-3">
               Ordinary National Diploma: Accountancy
+            </div>
+          </div>
+          <div className="my-5 pb-5 bg-gray-100">
+            <h1></h1>
+            <div className="job-title flex mb-5 mt-5 justify-between gap-10 bg-gray-400 p-2">
+              <h1 className="font-semibold text-3xl">
+                Certificate and Training
+              </h1>
+              <h3></h3>
+            </div>
+            <div className="job-discription p-3">
+              <ul>
+                <li>
+                  <b>
+                    Designate Compliance Personel (DCP) - Compliance Institute,
+                    Nigeria
+                  </b>
+                </li>
+                <li>
+                  <b>Data Analytics Training - Utiva</b>
+                </li>
+                <li>
+                  <b>Data Analytics Certification -ALX Nigeria</b>
+                </li>
+                <li>
+                  <b>Professional Foundations Program - ALX Nigeria</b>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
