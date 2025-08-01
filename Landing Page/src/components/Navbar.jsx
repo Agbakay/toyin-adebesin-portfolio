@@ -1,10 +1,17 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   //
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    setIsOpen(false); // Close menu on route change
+  }, [location.pathname]);
   //
+
   const openMenu = document.getElementById("menu");
   const navLinks = document.querySelector(".nav-links");
   const NavBar = document.querySelector(".nav-bar");
@@ -37,7 +44,7 @@ const Navbar = () => {
           <h1 className=" bold uppercase font-semibold tracking-wider text-2xl">
             <a href="/">Toyin Adebesin</a>
           </h1>
-          <p className=" text-[14px] uppercase font-medium">
+          <p className=" text-[13px] uppercase font-medium">
             Financial Risk & AML Analyst
           </p>
         </div>
