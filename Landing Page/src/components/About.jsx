@@ -37,7 +37,7 @@ const About = () => {
               regulatory environment.
             </p>
             <a
-              href="/about"
+              href={"/about"}
               className="py-3 px-6 bg-teal-800 rounded-full border-2 border-white text-white hover:bg-black hover:text-white"
             >
               Learn More

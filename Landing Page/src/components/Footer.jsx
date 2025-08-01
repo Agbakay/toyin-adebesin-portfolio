@@ -9,8 +9,10 @@ const Footer = () => {
         <div className=" md:flex justify-between pb-10">
           <div>
             <h1 className="font-bold text-3xl">Toyin Adebesin</h1>
-            <p className=" tracking-[7px]">Data Analytics</p>
-            <p className="md:w-96 pt-[40px]">
+            <p className=" uppercase text-[13.5px] font-semibold">
+              Financial Risk & AML Analyst
+            </p>
+            <p className="md:w-96 pt-[40px] pb-5">
               With a growing interest in data, Toyin has expanded her skill set
               through academic training in data analytics — equipping herself
               with the tools to make better, data-informed decisions that bridge
@@ -18,19 +20,19 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-2xl font-bold">About</h1>
+            <h1 className="text-2xl font-bold"> Links</h1>
             <ul className="flex gap-5 flex-col pt-5">
               <li>
-                <a href="/">Home</a>
+                <NavLink to={"/"}>Home</NavLink>
               </li>
               <li>
-                <a href="/about">About</a>
+                <NavLink to={"/about"}>About</NavLink>
               </li>
               <li>
-                <a href="/services">Services</a>
+                <NavLink to={"/services"}>Services</NavLink>
               </li>
               <li>
-                <a href="/portfolio">Portfolio</a>
+                <NavLink to={"/portfolio"}>Portfolio</NavLink>
               </li>
             </ul>
           </div>
@@ -54,29 +56,29 @@ const Footer = () => {
             <div className=" pt-5">
               <i className="fa-solid fa-phone text-2xl md:text-5x1"></i>
               <a
-                href="tel:09036817523"
+                href="tel:9023004660"
                 className=" ml-4 text-center text-black hover:text-blue-800 "
               >
-                +234-9036817523
+                +2349023004660
               </a>
             </div>
             <div className=" pt-5 ">
               <i className="fa-solid fa-envelope-open text-2xl md:text-5x1 hover:text-blue-900"></i>
               <a
-                href="mailto:kayodeakintunde918@gmail.com "
+                href="mailto:Toyinadebesin7@gmail.com "
                 className="ml-4 text-center hover:text-blue-800"
               >
-                kayodeakintunde918@gmail.com
+                Toyinadebesin7@gmail.com
               </a>
             </div>
           </div>
         </div>
         <hr className="" />
-        <div className="mt-10 flex justify-between items-center ">
+        <div className="mt-10 md:flex justify-between items-center text-center gap-4 ">
           <p className="">All Right Reserved © Toyin Adebesin </p>
           <p>
             Design and Built by{" "}
-            <a href="Mailto:victor.digitals001@gmail.com" target="_blank">
+            <a href="mailto:victor.digitals001@gmail.com" target="_blank">
               Akintunde Kayode
             </a>
           </p>

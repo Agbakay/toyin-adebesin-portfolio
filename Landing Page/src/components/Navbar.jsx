@@ -37,8 +37,8 @@ const Navbar = () => {
           <h1 className=" bold uppercase font-semibold tracking-wider text-2xl">
             <a href="/">Toyin Adebesin</a>
           </h1>
-          <p className="tracking-[1px] uppercase font-medium">
-            Data Analytics Expert
+          <p className=" text-[14px] uppercase font-medium">
+            Financial Risk & AML Analyst
           </p>
         </div>
 
