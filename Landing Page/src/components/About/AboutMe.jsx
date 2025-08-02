@@ -1,11 +1,12 @@
 import React from "react";
 import image from "../../assets/herobg.jpg";
+import about from "../../assets/about-img.png";
 
 const AboutMe = () => {
   return (
     <div className="px-[8%] my-24 md:flex gap-24">
       <div className="basis-1/2">
-        <img src={image} alt="" className="w-[100%] h-[100%] object-cover" />
+        <img src={about} alt="" className="w-[100%] h-[100%] object-cover" />
       </div>
       <div className="basis-3/4">
         <h3 className="pt-10 font-semibold">Meet Me</h3>
