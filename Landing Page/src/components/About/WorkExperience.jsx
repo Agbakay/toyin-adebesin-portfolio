@@ -9,9 +9,8 @@ const WorkExperience = () => {
           <div className="my-5 bg-gray-100 pb-5">
             <div className="job-title flex mb-5 mt-5 justify-between gap-10 bg-gray-400 p-2">
               <h1 className="font-semibold">
-                {" "}
-                <span className="text-cyan-950 ">Sanction Analyst</span> |
-                Gabriel Grace Consulting Services (PureDiligence)
+                Sanction Analyst | Gabriel Grace Consulting Services
+                (PureDiligence)
               </h1>
               <h3>February 2025 - Present </h3>
             </div>
