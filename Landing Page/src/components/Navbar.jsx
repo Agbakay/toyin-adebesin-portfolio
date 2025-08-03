@@ -73,7 +73,7 @@ const Navbar = () => {
             <NavLink to={"/about"}>About</NavLink>
           </li>
           <li className="hover:bg-white hover:p-2 rounded p-2">
-            <NavLink to={"/services"}>Services</NavLink>
+            <NavLink to={"/services"}>Projects</NavLink>
           </li>
           <li className="hover:bg-white hover:p-2 rounded p-2">
             <NavLink to={"/portfolio"}>Portfolio</NavLink>
@@ -92,7 +92,7 @@ const Navbar = () => {
             <NavLink to={"/about"}>About</NavLink>
           </li>
           <li className=" hover:text-cyan-700">
-            <NavLink to={"/services"}>Services</NavLink>
+            <NavLink to={"/services"}>Projects</NavLink>
           </li>
           <li className=" hover:text-cyan-700">
             <NavLink to={"/portfolio"}>Portfolio</NavLink>
