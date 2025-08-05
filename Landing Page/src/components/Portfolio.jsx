@@ -3,6 +3,8 @@ import image from "../assets/herobg.jpg";
 import image_1 from "../assets/Initiative-2.png";
 import image_2 from "../assets/intiative-3.png";
 import image_3 from "../assets/events.png";
+import image_4 from "../assets/cousin-wedding.png";
+import image_5 from "../assets/section-3.png";
 
 const Portfolio = () => {
   return (
@@ -16,14 +18,14 @@ const Portfolio = () => {
           excellence, and a human touch.
         </p>
         <div className="  sm:flex gap-10 justify-between items-center pt-10   ">
-          <div className=" cursor-pointer p-9">
-            <img src={image_1} alt="" />
+          <div className=" cursor-pointer object-contain p-9">
+            <img src={image_4} alt="" />
           </div>
           <div className=" object-contain  ">
-            <img src={image_2} alt="" />
+            <img src={image_5} alt="" />
           </div>
           <div className=" object-contain pt-10 pb-10">
-            <img src={image_3} alt="" />
+            <img src={image_1} alt="" />
           </div>
         </div>
       </div>
