@@ -11,18 +11,13 @@ const Portfolio = () => {
         <h1 className="sm:text-5xl text-4xl text-center">More Than a Resume</h1>
         <p className="text-center p-4">
           Meet Toyin, still leave the Whether she’s dancing, cracking a clever
+          <br></br>
           joke, or leading a high-stakes project, she shows up with intention,
           excellence, and a human touch.
         </p>
         <div className="  sm:flex gap-10 justify-between items-center pt-10   ">
           <div className=" cursor-pointer p-9">
             <img src={image_1} alt="" />
-
-            <h1>Portfolio one</h1>
-            <p>Project Discription</p>
-            <a href="#">
-              <i className="fa-solid fa-arrow-right"></i>
-            </a>
           </div>
           <div className=" object-contain  ">
             <img src={image_2} alt="" />
