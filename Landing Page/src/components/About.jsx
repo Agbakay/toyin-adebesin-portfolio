@@ -14,11 +14,7 @@ const About = () => {
         </h1>
         <div className=" md:column md:flex  gap-10 py-10 gap-x-10">
           <div className="col basis-1/2">
-            <img
-              src={image}
-              alt=""
-              className=" md:w-full hover:translate-y-6  "
-            />
+            <img src={image} alt="" className=" md:w-full   " />
           </div>
           <div className="col basis-1/2">
             <p className="py-10">

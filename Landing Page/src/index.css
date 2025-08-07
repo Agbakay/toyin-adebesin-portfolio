@@ -14,6 +14,14 @@ button {
   border: 0;
   color: inherit;
   background: inherit;
+  animation: fadein 4s linear;
+  transition: 2s linear;
+  cursor: pointer;
+}
+
+button:hover .fa-solid {
+  transform: rotate(-45deg);
+  transition: 1s linear;
 }
 
 a {
@@ -56,4 +64,21 @@ a:hover .fa-solid {
   background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
     url(../src/assets/herobg.jpg) no-repeat center center/cover;
   background-attachment: fixed;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+img {
+  cursor: pointer;
+}
+
+img:hover {
 }

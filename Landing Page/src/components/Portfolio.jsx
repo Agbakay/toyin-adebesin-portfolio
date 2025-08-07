@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../assets/herobg.jpg";
 import image_1 from "../assets/cousin-wedding-01.png";
-import image_2 from "../assets/intiative-3.png";
+import image_2 from "../assets/wedding01.png";
 import image_3 from "../assets/events.png";
 import image_4 from "../assets/cousin-wedding.png";
 import image_5 from "../assets/section-3.png";
@@ -21,7 +21,7 @@ const Portfolio = () => {
             <img src={image_4} alt="" className="w-full md:w-[500px]" />
           </div>
           <div className=" object-contain  ">
-            <img src={image_5} alt="" className="w-full md:w-[500px]" />
+            <img src={image_2} alt="" className="w-full md:w-[500px]" />
           </div>
           <div className=" object-contain pt-10 pb-10">
             <img src={image_1} alt="" className="w-full md:w-[500px] " />
