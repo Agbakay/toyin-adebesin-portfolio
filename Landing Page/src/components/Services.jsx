@@ -19,57 +19,75 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="services sm:flex gap-10 py-10 ">
-            <div className="p-10 border-2 hover:shadow-lg mb-5 hover:bg-cyan-100">
+          <div className="services sm:flex gap-10 py-10  ">
+            <div className="p-10 border-2 hover:shadow-lg mb-5 basis-[33.3%] hover:bg-cyan-100">
               <div className="icon">
                 <i className="fa-solid fa-book text-4xl "></i>
               </div>
-
-              <h1 className="sm:text-3xl text-2xl py-4">Data Analytics</h1>
+              <h1 className="sm:text-2xl text-xl py-4 font-bold">
+                Transforming Data into Clear Insights
+              </h1>
               <p className="py-3">
-                I'm not just a service provider; I'm a creative storyteller, a
-                problem solver, and your partner in turning imagination into
-                reality. Here in my creative haven, we embark on a journey where
-                every idea, every project, is an opportunity to craft something
-                truly unique.
+                I am a finance professional with a strong foundation in data
+                analysis and visualization, specializing in Excel, Power BI, and
+                SQL. My portfolio showcases hands-on projects with the help of
+                Data, where I applied tools to clean, analyze, and present in
+                ways that drive informed decision-making.
               </p>
-              <button className=" rounded-full p-0">
-                Learn More
-                <i className="fa-solid fa-arrow-right"></i>
+              <p>
+                I bring a detail-oriented approach and a commitment to accuracy
+                in every project. My work reflects both technical skill and the
+                ability to translate numbers into meaningful stories.
+              </p>
+              <button className=" rounded-full p-0 mt-4">
+                View My Projects 
+                <i className="fa-solid fa-arrow-right ml-3"></i>
               </button>
             </div>
-            <div className="p-10 border-2 hover:shadow-lg mb-5 hover:bg-cyan-100">
+            <div className="p-10 border-2 hover:shadow-lg mb-5  basis-[33.3%] hover:bg-cyan-100">
               <div className="icon">
                 <i className="fa-solid fa-book text-4xl "></i>
               </div>
 
-              <h1 className="sm:text-3xl text-2xl py-4">Data Analytics</h1>
+              <h1 className="sm:text-2xl text-xl font-bold py-4">
+                Empowering Women Through Financial Literacy
+              </h1>
               <p className="py-3">
-                I'm not just a service provider; I'm a creative storyteller, a
-                problem solver, and your partner in turning imagination into
-                reality. Here in my creative haven, we embark on a journey where
-                every idea, every project, is an opportunity to craft something
-                truly unique.
+                Sisit Digital Solution is my personal initiative designed to
+                bridge the financial knowledge gap for women in underserved
+                communities. The vision is simple — to deliver practical
+                financial education through mobile-friendly, culturally relevant
+                content in local languages.
+              </p>
+              <p>
+                This ongoing project reflects my passion for inclusive finance,
+                digital empowerment, and economic independence.
               </p>
               <button className=" rounded-full p-0">
-                Learn More <i className="fa-solid fa-arrow-right"></i>
+                Learn More <i className="fa-solid fa-arrow-right ml-3"></i>
               </button>
             </div>
-            <div className="p-10 border-2 hover:shadow-lg mb-5 hover:bg-cyan-100">
+            {/*  */}
+            <div className="p-10 border-2 hover:shadow-lg mb-5  basis-[33.3%] hover:bg-cyan-100">
               <div className="icon">
-                <i className="fa-solid fa-book text-4xl "></i>
+                <i className="fa-solid fa-book text-2xl font-bold "></i>
               </div>
 
-              <h1 className="sm:text-3xl text-2xl py-4">Data Analytics</h1>
+              <h1 className="sm:text-2xl text-xl py-4 font-bold">
+                The Road Ahead
+              </h1>
               <p className="py-3">
-                I'm not just a service provider; I'm a creative storyteller, a
-                problem solver, and your partner in turning imagination into
-                reality. Here in my creative haven, we embark on a journey where
-                every idea, every project, is an opportunity to craft something
-                truly unique.
+                The Road Ahead I’m on a mission to combine my expertise in
+                finance, compliance, and data analytics to fight financial crime
+                on a global scale. My next step is pursuing advanced training in
+                Finance and Risk Management, building the tools to launch
+                impactful financial inclusion projects, and partnering with
+                global institutions to make finance safer and more inclusive.
+                [Discover My Next Chapter →]
               </p>
               <button className=" rounded-full p-0">
-                Learn More <i className="fa-solid fa-arrow-right"></i>
+                Discover My Next Chapter{" "}
+                <i className="fa-solid fa-arrow-right ml-3"></i>
               </button>
             </div>
           </div>

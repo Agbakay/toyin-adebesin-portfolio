@@ -38,14 +38,7 @@ function App() {
       <div className="sm:flex gap-24 justify-between py-[100px]">
         <div className="wrapper basis-6/12 ">
           <h1 className="text-4xl md:text-5xl pb-5 font-normal">Contact Me</h1>
-          <p>
-            Toyin Adebesin is a passionate and purpose-driven finance and
-            compliance professional with a dynamic background in retail banking,
-            risk analysis, and financial crime prevention. Her career began at
-            the frontlines as a bank teller, where she developed a keen
-            understanding of financial operations and an early curiosity for the
-            inner workings of the financial system.
-          </p>
+          <p>Fill up the form and I will get back to you soon ✌️.</p>
           {/* ----------------- */}
           {/* Social icon */}
           {/* ---------------- */}

@@ -13,10 +13,10 @@ const Footer = () => {
               Financial Risk & AML Analyst
             </p>
             <p className="md:w-96 pt-[40px] pb-5">
-              With a growing interest in data, Toyin has expanded her skill set
-              through academic training in data analytics — equipping herself
-              with the tools to make better, data-informed decisions that bridge
-              the gap between finance, compliance, and technology.
+              Toyin has expanded her skill set through academic training in data
+              analytics — equipping herself with the tools to make better,
+              data-informed decisions that bridge the gap between finance,
+              compliance, and technology.
             </p>
           </div>
           <div>
