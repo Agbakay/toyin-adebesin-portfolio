@@ -1,4 +1,7 @@
 import React from "react";
+import image_0 from "../../assets/alx.jpg";
+import image_1 from "../../assets/images.jpg";
+import image_2 from "../../assets/aws.png";
 
 const WorkExperience = () => {
   return (
@@ -162,6 +165,12 @@ const WorkExperience = () => {
                   <b>Professional Foundations Program - ALX Nigeria</b>
                 </li>
               </ul>
+            </div>
+
+            <div className="flex gap-2 pl-3">
+              <img src={image_0} alt="" width={100} />
+              <img src={image_1} alt="" width={100} />
+              <img src={image_2} alt="" width={100} />
             </div>
           </div>
         </div>
