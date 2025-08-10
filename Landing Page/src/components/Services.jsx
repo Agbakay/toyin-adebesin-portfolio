@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/herobg.jpg";
+import { NavLink } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -20,7 +21,7 @@ const Services = () => {
           </div>
 
           <div className="services sm:flex gap-10 py-10  ">
-            <div className="p-10 border-2 hover:shadow-lg mb-5 basis-[33.3%] hover:bg-cyan-100">
+            <div className="p-10 border-2 hover:shadow-lg mb-5 basis-[33.3%] ">
               <div className="icon">
                 <i className="fa-solid fa-book text-4xl "></i>
               </div>
@@ -39,12 +40,15 @@ const Services = () => {
                 in every project. My work reflects both technical skill and the
                 ability to translate numbers into meaningful stories.
               </p>
-              <button className=" rounded-full p-0 mt-4">
-                View My Projects 
-                <i className="fa-solid fa-arrow-right ml-3"></i>
-              </button>
+
+              <NavLink to={"/portfolio"}>
+                <button className=" rounded-full p-0 mt-4">
+                  View My Projects 
+                  <i className="fa-solid fa-arrow-right ml-3"></i>
+                </button>{" "}
+              </NavLink>
             </div>
-            <div className="p-10 border-2 hover:shadow-lg mb-5  basis-[33.3%] hover:bg-cyan-100">
+            <div className="p-10 border-2 hover:shadow-lg mb-5  basis-[33.3%] ">
               <div className="icon">
                 <i className="fa-solid fa-book text-4xl "></i>
               </div>
@@ -58,17 +62,18 @@ const Services = () => {
                 communities. The vision is simple — to deliver practical
                 financial education through mobile-friendly, culturally relevant
                 content in local languages.
-              </p>
-              <p>
+                <br /> <br />
                 This ongoing project reflects my passion for inclusive finance,
                 digital empowerment, and economic independence.
               </p>
-              <button className=" rounded-full p-0">
-                Learn More <i className="fa-solid fa-arrow-right ml-3"></i>
-              </button>
+              <NavLink to={"/portfolio"}>
+                <button className=" rounded-full p-0">
+                  Learn More <i className="fa-solid fa-arrow-right ml-3"></i>
+                </button>{" "}
+              </NavLink>
             </div>
             {/*  */}
-            <div className="p-10 border-2 hover:shadow-lg mb-5  basis-[33.3%] hover:bg-cyan-100">
+            <div className="p-10 border-2 hover:shadow-lg mb-5  basis-[33.3%] ">
               <div className="icon">
                 <i className="fa-solid fa-book text-2xl font-bold "></i>
               </div>
@@ -83,12 +88,15 @@ const Services = () => {
                 Finance and Risk Management, building the tools to launch
                 impactful financial inclusion projects, and partnering with
                 global institutions to make finance safer and more inclusive.
-                [Discover My Next Chapter →]
               </p>
-              <button className=" rounded-full p-0">
-                Discover My Next Chapter{" "}
-                <i className="fa-solid fa-arrow-right ml-3"></i>
-              </button>
+
+              <NavLink to={"/portfolio"}>
+                {" "}
+                <button className=" rounded-full p-0">
+                  Discover My Next Chapter
+                  <i className="fa-solid fa-arrow-right ml-3"></i>
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>

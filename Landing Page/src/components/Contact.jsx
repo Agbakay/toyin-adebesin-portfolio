@@ -38,7 +38,7 @@ function App() {
       <div className="sm:flex gap-24 justify-between py-[100px]">
         <div className="wrapper basis-6/12 ">
           <h1 className="text-4xl md:text-5xl pb-5 font-normal">Contact Me</h1>
-          <p>Fill up the form and I will get back to you soon ✌️.</p>
+          <p>Fill up the form and I will get back to you soon.</p>
           {/* ----------------- */}
           {/* Social icon */}
           {/* ---------------- */}

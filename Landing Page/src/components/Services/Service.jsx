@@ -8,7 +8,7 @@ const services = () => {
           <a href="/" className="hover:text-red-500 text-blue-800 text-center">
             Home
           </a>{" "}
-          |<span className="text-black"> Services</span>
+          |<span className="text-black"> Projects</span>
         </p>
         <h1 className="text-4xl text-center text-black font-bold tracking-widest">
           Services
