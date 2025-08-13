@@ -139,8 +139,23 @@ const services = () => {
             “I believe if a woman has knowledge, resources, and independence —
             she has freedom. And freedom is everything.”
           </blockquote>
+          <div className="py-4 flex gap-10 justify-start items-center">
+            <a
+              className="py-3 px-5 bg-cyan-700 text-white rounded-[50px]"
+              target="_blank"
+              href="https://miro.com/app/board/uXjVIatmCtA=/?share_link_id=869379785569"
+            >
+              Presntation Slide
+            </a>
+            <a
+              className="py-3 px-5 bg-cyan-700 text-white rounded-[50px]"
+              target="_blank"
+              href="https://docs.google.com/presentation/d/18vlcKLConmFivM5S9D_6AfuHoJXnWCJFVxew90txlbg/edit?usp=sharing"
+            >
+              Porject Mockup
+            </a>
+          </div>
         </div>
-        <div></div>
       </div>
     </div>
   );
