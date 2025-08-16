@@ -82,3 +82,13 @@ img {
 
 img:hover {
 }
+
+.grid-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item1 {
+  grid-row: span 4;
+  grid-column: 1/3;
+}

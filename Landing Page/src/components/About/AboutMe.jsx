@@ -30,7 +30,11 @@ const AboutMe = () => {
           With a growing interest in data, Toyin has expanded her skill set
           through academic training in data analytics — equipping herself with
           the tools to make better, data-informed decisions that bridge the gap
-          between finance, compliance, and technology.
+          between finance, compliance, and technology. Her next strategic step
+          involves rigorous graduate studies in finance, where she aims to
+          deepen her analytical expertise and acquire the technical and
+          strategic skills necessary to lead innovative solutions in financial
+          risk and compliance within the international financial system.
         </p>
         <p className="pt-5">
           Outside of her professional path, Toyin is the founder of Lift & Learn

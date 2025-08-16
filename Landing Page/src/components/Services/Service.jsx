@@ -1,6 +1,10 @@
 import React from "react";
 import image_1 from "../../assets/Mindklear.png";
+import image_3 from "../../assets/Mindklear-outreach.png";
+import image_4 from "../../assets/Mindklear01.png";
 import image_2 from "../../assets/Unleash.png";
+import image_5 from "../../assets/Unleash01.png";
+import image_6 from "../../assets/SISIT-Digital.jpg";
 
 const services = () => {
   return (
@@ -55,14 +59,34 @@ const services = () => {
             lasting.
           </p>
         </div>
-        <div className="basis-[50%] object-cover">
-          <img src={image_1} alt="" width={500} />
+        <div className="basis-[50%] ">
+          <div className="grid-main">
+            <div className="row-span-3 grid-item1">
+              <img src={image_1} alt="" />
+            </div>
+            <div className="grid-item2">
+              <img src={image_4} alt="" />
+            </div>
+            <div className="grid-item3">
+              <img src={image_3} alt="" />
+            </div>
+          </div>
         </div>
       </div>
 
       <div className="md:flex gap-20 justify-center items-center px-[8%] pt-20 pb-20">
         <div className="basis-[50%] object-cover">
-          <img src={image_2} alt="" width={500} />
+          <div className="grid-main">
+            <div className="row-span-3 grid-item1">
+              <img src={image_2} alt="" />
+            </div>
+            <div className="grid-item2">
+              <img src={image_5} alt="" />
+            </div>
+            <div className="grid-item3">
+              {/* <img src={image_2} alt="" /> */}
+            </div>
+          </div>
         </div>
         <div className="basis-[50%]">
           <h2 className="font-semibold text-xl md:text-3xl">
@@ -89,7 +113,7 @@ const services = () => {
         </div>
       </div>
 
-      <div className="md:flex px-[8%] pb-20 justify-center items-center">
+      <div className="md:flex px-[8%] pb-20 gap-10 justify-center items-center">
         <div>
           <h1 className="font-semibold pb-10 text-xl md:text-3xl">
             Lift & Learn Finance — Founder
@@ -136,7 +160,8 @@ const services = () => {
           </p>
           <div className="pt-10"></div>
           <blockquote className="border-l-4 border-cyan-950  pl-3 ">
-            “I believe if a woman has knowledge, resources, and independence —
+            “I believe if a woman has knowledge, resources, and independence
+            <br />
             she has freedom. And freedom is everything.”
           </blockquote>
           <div className="py-4 flex gap-10 justify-start items-center">
@@ -145,16 +170,19 @@ const services = () => {
               target="_blank"
               href="https://miro.com/app/board/uXjVIatmCtA=/?share_link_id=869379785569"
             >
-              Presntation Slide
+              Presentation Slide
             </a>
             <a
               className="py-3 px-5 bg-cyan-700 text-white rounded-[50px]"
               target="_blank"
               href="https://docs.google.com/presentation/d/18vlcKLConmFivM5S9D_6AfuHoJXnWCJFVxew90txlbg/edit?usp=sharing"
             >
-              Porject Mockup
+              Project Mockup
             </a>
           </div>
+        </div>
+        <div>
+          <img src={image_6} alt="" />
         </div>
       </div>
     </div>
