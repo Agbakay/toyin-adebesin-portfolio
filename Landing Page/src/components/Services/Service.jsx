@@ -3,7 +3,7 @@ import image_1 from "../../assets/Mindklear.png";
 import image_3 from "../../assets/Mindklear-outreach.png";
 import image_4 from "../../assets/Mindklear01.png";
 import image_2 from "../../assets/Unleash.png";
-import image_5 from "../../assets/Unleash01.png";
+import image_5 from "../../assets/unleash01.png";
 import image_6 from "../../assets/SISIT-Digital.jpg";
 
 const services = () => {
