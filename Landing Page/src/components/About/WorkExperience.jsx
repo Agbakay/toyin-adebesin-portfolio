@@ -167,11 +167,11 @@ const WorkExperience = () => {
               </ul>
             </div>
 
-            <div className="flex gap-2 pl-3">
+            {/* <div className="flex gap-2 pl-3">
               <img src={image_0} alt="" width={100} />
               <img src={image_1} alt="" width={100} />
               <img src={image_2} alt="" width={100} />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

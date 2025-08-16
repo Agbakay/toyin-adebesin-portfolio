@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-NavLink;
+import image_0 from "../assets/alx.jpg";
+import image_1 from "../assets/images.jpg";
+import image_2 from "../assets/aws.png";
 
 const Footer = () => {
   return (
@@ -18,6 +20,11 @@ const Footer = () => {
               data-informed decisions that bridge the gap between finance,
               compliance, and technology.
             </p>
+            <div className="flex gap-12 pb-10">
+              <img src={image_0} alt="" width={60} />
+              <img src={image_1} alt="" width={60} />
+              <img src={image_2} alt="" width={60} />
+            </div>
           </div>
           <div>
             <h1 className="text-2xl font-bold"> Links</h1>
