@@ -14,12 +14,7 @@ const Footer = () => {
             <p className=" uppercase text-[13.5px] font-semibold">
               Financial Risk & AML Analyst
             </p>
-            <p className="md:w-96 pt-[40px] pb-5">
-              Toyin has expanded her skill set through academic training in data
-              analytics — equipping herself with the tools to make better,
-              data-informed decisions that bridge the gap between finance,
-              compliance, and technology.
-            </p>
+            <p className="md:w-96 pt-[40px] pb-5"></p>
             <div className="flex gap-12 pb-10">
               <img src={image_0} alt="" width={60} />
               <img src={image_1} alt="" width={60} />
